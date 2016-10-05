@@ -1,0 +1,76 @@
+# Numerous always-ignore extensions #
+#####################################
+*~
+*.temp
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.sass-cache
+.temp
+temp/*
+
+# OS and/or Editor files/folders #
+##################################
+*.esproj
+*.komodoproject
+*.sublime-project
+*.sublime-workspace
+._*
+.cache
+.DS_Store
+.komodotools
+.project
+.settings
+.Spotlight-V100
+.tmproj
+.Trashes
+Thumbs.db
+desktop.ini
+nbproject
+
+# Xcode rubbish #
+#################
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+VersionX-revision.h
+xcuserdata/*
+
+# Build products #
+##################
+*.[oa]
+*.pyc
+build/*
+
+# Other source repository directories #
+#######################################
+.CVS
+.hg
+.idea
+.svn
+CVS
+
+# Automatic backup files #
+##########################
+*~.nib
+*.swp
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+# Puppet stuff #
+################
+modules/bnbignored/*
+etckeeper*
+modules/apt
+modules/stdlib
+puppet.conf
